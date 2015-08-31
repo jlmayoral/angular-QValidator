@@ -26,7 +26,7 @@ To your `components.json` file. Then run
 
 This will copy the ui-calendar files into your `components` folder, along with its dependencies. Load the script files in your application:
 
-    <script type="text/javascript" src="bower_components/angular/angular.js"></script>
+    <script src="bower_components/angular/angular.js"></script>
 
 Add the calendar module as a dependency to your application module:
 
