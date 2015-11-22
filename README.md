@@ -28,7 +28,7 @@ This will copy the qvalidator files into your `components` folder, along with it
 
     <script src="bower_components/angular-qvalidator/qvalidator.js"></script>
 
-Add the calendar module as a dependency to your application module:
+Add the QValidator module as a dependency to your application module:
 
     var myAppModule = angular.module('MyApp', ['qs.utils.qvalidator'])
 
