@@ -20,7 +20,7 @@ We use [bower](http://twitter.github.com/bower/) for dependency management.  Add
         "qvalidator": "latest"
     }
 
-To your `components.json` file. Then run
+To your `components.json` file. Then run 
 
     bower install
 
