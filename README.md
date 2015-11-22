@@ -2,7 +2,7 @@
 A complete pack for forms validator, mask fields and messages errors for AngularJS
 
 # Requirements
-- ([AngularJS](http://code.angularjs.org/1.4.5/angular.js))
+- ([AngularJS](http://code.angularjs.org/1.4.x/angular.js))
 
 # Testing
 We use karma and grunt to ensure the quality of the code.
@@ -24,13 +24,13 @@ To your `components.json` file. Then run
 
     bower install
 
-This will copy the ui-calendar files into your `components` folder, along with its dependencies. Load the script files in your application:
+This will copy the qvalidator files into your `components` folder, along with its dependencies. Load the script files in your application:
 
-    <script src="bower_components/angular/angular.js"></script>
+    <script src="bower_components/angular-qvalidator/qvalidator.js"></script>
 
 Add the calendar module as a dependency to your application module:
 
-    var myAppModule = angular.module('MyApp', ['qs.utils'])
+    var myAppModule = angular.module('MyApp', ['qs.utils.qvalidator'])
 
 Apply the directive to your input elements.
 
