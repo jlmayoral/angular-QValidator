@@ -4,5 +4,7 @@
   "keywords": ["util", "functional", "server", "client", "browser"],
   "author": "José Luis Mayoral",
   "contributors": ["jlmayoral"],
+  "repository": "https://github.com/jlmayoral/angular-qvalidator",
+  "license": "MIT",
   "dependencies": {}
 }
