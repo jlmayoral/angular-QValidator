@@ -1,8 +1,8 @@
 {
-  "name": "QValidator",
-  "version": "1.0.0",
+  "name": "angular-qvalidator",
+  "version": "0.9.0",
   "keywords": ["util", "functional", "server", "client", "browser"],
-  "author": "caldeo",
-  "contributors": [],
+  "author": "José Luis Mayoral",
+  "contributors": ["jlmayoral"],
   "dependencies": {}
 }

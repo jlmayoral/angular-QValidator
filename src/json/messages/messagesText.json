@@ -1,0 +1,70 @@
+{
+    "required": {
+        "restrict": "MFI",
+        "validate": "model",
+        "required": true,
+        "message": "El campo <i>{{title}}</i> es obligatorio.(json)"
+    },
+    "length": {
+        "restrict": "MF",
+        "length": 3,
+        "message": "El campo <i>{{title}}</i> debe tener {{length}} caracteres."
+    },
+    "minLength": {
+        "restrict": "MFI",
+        "minLength": 3,
+        "message": "El campo <i>{{title}}</i> debe tener más de {{minLength}} caracteres."
+    },
+    "maxLength": {
+        "restrict": "MFDI",
+        "maxLength": null,
+        "message": "El campo <i>{{title}}</i> debe tener un máximo de {{maxLength}} caracteres."
+    },
+    "min": {
+        "restrict": "MI",
+        "min": null,
+        "charTest": "(chartTest..)",
+        "message": "El campo <i>{{title}}</i> debe tener un máximo de {{messages.minLength.minLength}} y {{messages.maxLength.maxLength}} caracteres y {{charTest}}."
+    },
+    "max": {
+        "restrict": "MI",
+        "max": null,
+        "message": "El campo <i>{{title}}</i> debe tener un máximo de {{messages.maxLength.maxLength}} caracteres."
+    },
+    "pattern": {
+        "restrict": "MFDI",
+        "pattern": null,
+        "message": "El campo <i>{{title}}</i> no debe tener números."
+    },
+    "text": {
+        "restrict": "MDI",
+        "text": "^\\D*$",
+        "message": "El campo <i>{{title}}</i> no admite caracteres numéricos."
+    },
+    "onlyNumbers": {
+        "restrict": "MDI",
+        "number": "^[0-9]*$",
+        "message": "El campo <i>{{title}}</i> solo admite números."
+    },
+    "onlyChars": {
+        "restrict": "MDI",
+        "number": "!^[0-9]*$",
+        "message": "El campo <i>{{title}}</i> solo admite números."
+    },
+    "integer": {
+        "restrict": "MDI",
+        "integer": "^[0-9]*$",
+        "message": "El campo <i>{{title}}</i> solo admite números."
+    },
+    "telefono": {
+        "restrict": "MD",
+        "telefono": "^[0-9]{1,3}[ ]{0,1}[0-9]{0,2}[ ]{0,1}[0-9]{0,2}[ ]{0,1}[0-9]{0,2}$",
+        "message": "El campo <i>{{title}}</i> solo admite espacios y números, el formato correcto es: <br/>123456789 o <br/>123 45 67 89"
+    },
+    "email": {
+        "restrict": "MDFI",
+        "email": "^([a-z]+[a-z1-9._-]*)@{1}([a-z1-9\\.]{2,})\\.([a-z]{2,3})$",
+        "message": "El campo <i>{{title}}</i> necesita un email correcto."
+    }
+
+}

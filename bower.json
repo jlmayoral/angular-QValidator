@@ -1,13 +1,13 @@
 {
-  "name": "QValidator",
-  "version": "1.0.0",
+  "name": "angular-qvalidator",
+  "version": "0.9.0",
   "main": "path/to/main.css",
   "ignore": [
     ".jshintrc",
     "**/*.txt"
   ],
   "dependencies": {
-    "angularjs": "1.4.5"
+    "angular": "1.4.x"
   },
   "devDependencies": {}
 }
